@@ -1,0 +1,37 @@
+{
+    "aliases": {
+        "cubes": [
+            {
+                "name": "Sales",
+                "alternatives": ["sales", "sale"],
+                "levels": [
+                    {
+                        "current_name": "Category.Category.Category",
+                        "unique_name": "Unique Category"
+                    }
+                ],
+                "properties": [
+                  {
+                        "current_name": "Geography.Geography.Continent.Continent PT",
+                        "unique_name": "Continent PT"
+                  }
+                ]
+            }
+        ]
+    },
+    "named_sets": [
+        {
+            "level_name": "Category.Category.Category",
+            "sets": [
+                {
+                    "set_name": "Set 1",
+                    "values": ["1", "4"]
+                },
+                {
+                    "set_name": "Set 2",
+                    "values": ["2", "3"]
+                }
+            ]
+        }
+    ]
+}
